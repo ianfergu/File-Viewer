@@ -1,6 +1,6 @@
 # FileViewer
 
-A simple application that serves files and displays them in browser.
+A simple application that serves files and displays them in browser. Takes in a source directory and serves files in that directory to be viewed in a web browser. All files are expected to be txt files (no binary).
 
 ## Walkthrough
 ### Backend
@@ -30,12 +30,6 @@ Start Frontend:
 	npm start
 
 The frontend should be available at http://localhost:3000
-## Discussion: If the number of files is very large (10,000+)
-
-If the number of files is very large, the amount of files returned from the list endpoint could be limited to 1000 and paginated. The frontend could also allow collapsable directories like a more typical file browser.
-## Discussion: If the contents of all the files do not fit in memory
-This HTTP server is very simple and all of the files do not need to be put into memory, as they are being read individually. If memory becomes an issue, files could again be separated into chunks and only loaded when required. 
-
 ## External resources
 https://reactjs.org/docs/faq-functions.html
 https://developmentarc.gitbooks.io/react-indepth/content/life_cycle/update/postrender_with_componentdidupdate.html
@@ -55,6 +49,3 @@ Frontend
  - Bootstrap
  - Boostrap Icons
 
-## Time Spent
-
-I spend 6-7 hours working on this assignment.
