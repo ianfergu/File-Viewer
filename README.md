@@ -2,7 +2,7 @@
 
 A simple application that serves files and displays them in browser. Takes in a source directory and serves files in that directory to be viewed in a web browser. All files are expected to be txt files (no binary).
 
-<img width="173" alt="Screen Shot 2021-06-08 at 12 50 51 PM" src="https://user-images.githubusercontent.com/42654771/121227509-a58c1e00-c859-11eb-9f11-0e192e3d8c67.png">
+<img width="1214" alt="Screen Shot 2021-06-08 at 12 51 10 PM" src="https://user-images.githubusercontent.com/42654771/121227548-afae1c80-c859-11eb-9785-5617786d4c7d.png">
 
 ## Walkthrough
 ### Backend
