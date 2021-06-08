@@ -1,0 +1,27 @@
+.link {
+    text-decoration:none ;
+    color: black;
+    text-overflow: ellipsis;
+}
+
+.text-truncate {
+    padding-left: 0px!important;
+}
+
+.column {
+    height: 80vh!important;
+    overflow-y: auto;
+    text-overflow: ellipsis;
+}
+
+.nav-link-custom {
+    display: block;
+    padding: .5rem 1rem;
+    color: grey;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.in-view {
+    background-color: #fff;
+}
